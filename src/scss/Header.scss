@@ -7,35 +7,57 @@
   }
 
 .header {
+    display: flex;
+    flex-direction: column;
     
-    background-image: url(../images/foto-rociolopez.jpg);
-    background-position: center;
-    background-size: cover;
-    &__titulo {
-    background-color: rgb(102, 102, 70);
-     color: #fff;
-     font-family: Rubik;
-     font-size: 1.5REM;
-     text-align: center;
-     padding-left: 80px;
-     padding-right: 80px;
-     padding-bottom: 15px;
-     padding-top: 15px;
+    
+    &__title {
+      background-color: rgb(102, 102, 70);
+      color: #fff;
+      font-family: Rubik;
+      font-size: 1.5REM;
+      text-align: center;
+      padding-left: 80px;
+      padding-right: 80px;
+      padding-bottom: 15px;
+      padding-top: 15px;
     }
     &__list {
-        background-color: rgb(179, 179, 142);
-        color: #ffffff; 
-        display: flex;
-        list-style: none;
-        padding: 16px ;
-        font-family: Rubik;
-        font-size: 15px;
-        padding: 16px;
-        justify-content: space-around;
+      background-color: rgb(179, 179, 142);
+      color: #ffffff; 
+      display: flex;
+      list-style: none;
+      padding: 16px ;
+      font-family: Rubik;
+      font-size: 15px;
+      padding: 16px;
+      justify-content: space-around;
          } 
-    &__img {
+    &__div{
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
       width: 100%;
+      overflow: hidden;
+      
+          &--img {
+            width: 100%;
+            background-image: url(../images/foto-rociolopez.jpg);
+            background-position: center;
+            background-size: cover;
+            height: auto;
+            
     }
+          &--h2{
+            position: absolute;
+            font-size: 1.5rem;
+            color: white;
+            padding: 20px; 
+            text-align: center;
+
+    }
+  }
 }
 
  
