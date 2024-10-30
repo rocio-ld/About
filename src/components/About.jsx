@@ -1,5 +1,6 @@
 import "../scss/About.scss";
 import {useNavigate}from "react-router-dom";
+import historia from "../images/historia.jpg"
 
 function About() {
   const navigate= useNavigate(); //Hook para navegar programáticamente
@@ -10,12 +11,12 @@ function About() {
 
   return (
     <section className="section2">
-    <h2 className="who">SOBRE MÍ</h2>
+    <h2 className="who">Sobre Rocío López</h2>
 
     <div className="profile">
-      <img className="profile__img" src="./images/foto2.jpeg" alt="Rocío" />
+      <img className="profile__img" src={historia} alt="Rocío" />
       
-         <h3 className="name">Mº Rocío Lopez</h3>
+         <h3 className="name"></h3>
          <p className="description">
         Tengo 34 años y estudié el Ciclo formativo de Grado Superior de
         Administración y Finanzas. Me considero una persona metódica, organizada y
@@ -26,12 +27,7 @@ function About() {
         buena salud física y mental y así poder tener equilibrio entre vida
         personal y laboral.
         </p>
-      <div className="socialmedia">
-        <a href="#https://www.linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
-        <a href="#https://www.instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
-        <a href="#https://x.com/" target="_blank"><i className="fa-brands fa-square-x-twitter"></i></a>
-        <a href="#https://www.google.com/intl/es/gmail/about/" target="_blank"><i className="fa-solid fa-envelope"></i></a>
-      </div> 
+    
       <button onClick={gotToHome}>HOME</button>
     </div>
   

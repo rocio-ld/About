@@ -27,7 +27,8 @@
      
     &__img{
         background-color: $gris-claro;
-        width: 150px;
+        border-radius: 50%;
+        width: 300px;
         justify-self: center;
         @media (min-width: 768px){
             grid-row: span 3;
@@ -87,17 +88,7 @@
 
 
 
-.socilamedia{
-    letter-spacing: normal;
-}
-.fa-brands {
-    
-        color: $verde-oscuro;
-    }
-.fa-solid{
-        color: $verde-oscuro;
-        
-}
+
 
 
 
