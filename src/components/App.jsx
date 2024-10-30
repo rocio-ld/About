@@ -1,23 +1,21 @@
 import About from "./About";
-import Footer from "./Footer";
-import Header from "./Header";
-import Secret from "./Secret";
-
-
+import Home from "./Home";
+import Contact from "./Contact";
+import History from "./History";
+import { Routes, Route} from "react-router-dom";
 
 function App() {
-
-
-
   
   return (
-    <>
-   
-        <Header/>  
-        <About/>
-        <Secret/>
-        <Footer/>
-        </>  
+    
+   <>
+    <Routes>
+      <Route path="/"element={<Home/>  }/>
+      <Route path="/about"element={<About/>  }/>
+      <Route path="/history"element={<History/>  }/>
+      <Route path="/contact"element={<Contact/> }/>
+    </Routes>
+    </>
   )
 }
 

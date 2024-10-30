@@ -1,6 +1,13 @@
 import "../scss/About.scss";
+import {useNavigate}from "react-router-dom";
 
 function About() {
+  const navigate= useNavigate(); //Hook para navegar programáticamente
+
+  const gotToHome =() =>{
+    navigate("/");
+  };
+
   return (
     <section className="section2">
     <h2 className="who">SOBRE MÍ</h2>
@@ -25,6 +32,7 @@ function About() {
         <a href="#https://x.com/" target="_blank"><i className="fa-brands fa-square-x-twitter"></i></a>
         <a href="#https://www.google.com/intl/es/gmail/about/" target="_blank"><i className="fa-solid fa-envelope"></i></a>
       </div> 
+      <button onClick={gotToHome}>HOME</button>
     </div>
   
     

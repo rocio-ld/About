@@ -1,6 +1,12 @@
-import "../scss/Secret.scss"
+import "../scss/History.scss";
+import {useNavigate}from "react-router-dom";
 
-function Secret() {
+function History() {
+  const navigate= useNavigate(); //Hook para navegar programáticamente
+
+  const gotToHome =() =>{
+    navigate("/");
+  };
   return (
     <section className="equipo">
     <div className="equipo__container">
@@ -27,8 +33,10 @@ function Secret() {
         </p>
       </article>
     </div>
+    <button onClick={gotToHome}>HOME</button>
   </section>
+  
   )
 }
 
-export default Secret
+export default History
