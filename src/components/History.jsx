@@ -30,6 +30,14 @@ function History() {
         <h4>Debilidades</h4>
         <p>
           Auntque trabajar en unidad tiene muchas fortalezas, pordría destacar que a veces la comunicación ineficiente puede surgir debido a diferencias en estilos de comunicación, donde algunas pueden ser más directas y otras más reservadas, lo que puede causar malentendidos. También puede haber una distribución desigual del trabajo, donde algunas chicas asumen mas tareas que otras. Por último decir, que la toma de decisiones consensuada, aunque valiosa, puede ser más lenta, especialmente en situaciones donde se requiere una acción rapida.
+
+          Me considero una persona metódica, organizada y
+        responsable por resaltar cualidades positivas pero también soy impaciente,
+        autocrítica y algo perfeccionista, lo que me mantiene siempre con muchas
+        ganas de seguir mejorando laboral pero sobre todo personalmente. Doy mucho
+        valor a disfrutar del tiempo libre en familia y amigos, para tener una
+        buena salud física y mental y así poder tener equilibrio entre vida
+        personal y laboral.
         </p>
       </article>
     </div>
