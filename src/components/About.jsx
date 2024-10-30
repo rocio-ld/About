@@ -16,10 +16,33 @@ function About() {
     <div className="profile">
       <img className="profile__img" src={historia} alt="Rocío" />
       
-         <h3 className="name"></h3>
+         <h3 className="name">Te resumo sobre mí</h3>
          <p className="description">
-        Tengo 34 años y estudié el Ciclo formativo de Grado Superior de
-        Administración y Finanzas. Me considero una persona metódica, organizada y
+        Actualmente soy Desarrolladora Web Junior, y me preguntaréis ¿Cómo ha llegado una administrativa a interesarse por este mundo del Desarrollo de páginas web?... pues te cuento un poco...
+
+        Cuando finalicé el bachillerato con 18 años tenía que tomar la decisión más importante de mi vida, pero sabía que me gustaba y que no me gustaba, y en base a eso sabía que tenía que estudiar algo que tuviera  Matemáticas. 
+
+        Bajo mi punto de vista, en su día (hace 16 años), había poca información de las diferentes salidas laborales a elegir, así que pensé *estudia FPII de Administración y Finanzas* y pronto si Dios quiere empezarás a trabajar.
+
+        Terminé el FPII en 2010, y adivinad!! Me cogió una maravillosa crisis que duró unos cuantos años. Trabajar había que trabajar... aunque fui consiguiendo experiencia como administrativa de puro milagro.
+
+        En 2018, y después de mis experiencias como Administrativa, estaba algo frustrada, ya que no conseguía una estabilidad laboral a la que tanto ansiaba, decidí meterme en el ejército, ya que me aportaría estabilidad y cambio de aires.
+
+        Y siiiiii que cambié de aires, conocí al amor de mi vida, me casé y tuve un hermoso bebe. 
+
+        Además al tener experiencia previa administrativa, me ubicaron en la oficina de la compañía, con lo que todo iba como la seda HASTA... que mi marido consiguió trabajo en Sevilla y nos transladamos a mi tierra.
+
+        Necesitaba hacer un cambio de vida, ya que el cambiar de destino es muy difícil de conseguir en el ejército. Así que apareció Pepito Grillo con un gran consejo, estudia Desarrollo Web que tiene muchas salidas, puede que te guste.
+
+        Y ME ENCANTA!!!!  
+
+        Hay que seguir formándose siempre, es un mundo muy amplio y esto es SÓLO EL PRINCIPIO...
+
+        
+
+
+        
+        Me considero una persona metódica, organizada y
         responsable por resaltar cualidades positivas pero también soy impaciente,
         autocrítica y algo perfeccionista, lo que me mantiene siempre con muchas
         ganas de seguir mejorando laboral pero sobre todo personalmente. Doy mucho
