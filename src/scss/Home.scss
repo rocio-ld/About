@@ -9,7 +9,7 @@
 .header {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    
     
     
     
@@ -66,4 +66,31 @@
   color: white;
   text-decoration: none;
  }
+
+ .sectionProject{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(102, 102, 70);
     
+    
+    &__h2{
+      color: #fff;
+      font-family: Rubik;
+      font-size: 1.5REM;
+      text-align: center;
+      padding: 15px;
+     
+   
+      background-color: rgb(179, 179, 142);
+    }
+    &__div{
+      display:flex;
+      flex-direction: column;
+      padding: 15px;
+      gap: 15px;
+      &--img{
+        width: 350px;
+      }
+    }
+
+ }

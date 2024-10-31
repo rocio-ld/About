@@ -26,13 +26,13 @@ function About() {
 
         <p className="description">Terminé el FPII en 2010, y adivinad!! Me cogió una maravillosa crisis que duró unos cuantos años. Trabajar había que trabajar... aunque fui consiguiendo experiencia como administrativa de puro milagro.</p>
 
-        <p className="description">En 2018, y después de mis experiencias como Administrativa, estaba algo frustrada, ya que no conseguía una estabilidad laboral a la que tanto ansiaba, decidí meterme en el ejército, ya que me aportaría estabilidad y cambio de aires.</p>
+        <p className="description">En 2018, y después de mis experiencias como Administrativa, estaba algo frustrada, ya que no conseguía una estabilidad laboral que tanto ansiaba, y decidí meterme en el ejército, ya que me aportaría estabilidad y un cambio de aires.</p>
 
         <p className="description">Y siiiiii que cambié de aires, conocí al amor de mi vida, me casé y tuve un hermoso bebe. </p>
 
         <p className="description">Además al tener experiencia previa administrativa, me ubicaron en la oficina de la compañía, con lo que todo iba como la seda HASTA... que mi marido consiguió trabajo en Sevilla y nos transladamos a mi tierra.</p >
 
-        <p className="description">Necesitaba hacer un cambio de vida, ya que el cambiar de destino es muy difícil de conseguir en el ejército. Así que apareció Pepito Grillo con un gran consejo, estudia Desarrollo Web que tiene muchas salidas, puede que te guste.</p>
+        <p className="description">Necesitaba hacer un cambio de vida, ya que el cambiar de destino es muy difícil de conseguir en el ejército. Así que apareció Pepito Grillo con un gran consejo, estudia Desarrollo Web que tiene muchas salidas, puede que te guste...</p>
 
         <p className="description">Y ME ENCANTA!!!!  </p>
 
