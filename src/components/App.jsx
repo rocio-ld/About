@@ -7,7 +7,7 @@ import { Routes, Route,} from "react-router-dom";
 import anime from "../images/PAGINA-WEB-ANIME.png";
 import canino from "../images/PAGINA-WEB-CANINO-NATURAL.png";
 import videojuego from "../images/VIDEOJUEGO-CUIDADO-CON-GROGU.png";
-import ProjectItem from "./ProjectItem";
+
 
 
 
