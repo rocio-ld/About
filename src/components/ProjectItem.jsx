@@ -1,8 +1,7 @@
 import "../scss/ProjectItem.scss";
 
 function ProjectItem({
-  handleMouseEnter,
-  handleMouseLeave,
+  handleProjectClick,
   hoveredProject,
   projects,
 }) {
@@ -16,8 +15,8 @@ function ProjectItem({
             className={`sectionProject__item ${
               hoveredProject === project.id ? "hovered" : ""
             }`}
-            onMouseEnter={() => handleMouseEnter(project.id)}
-            onMouseLeave={handleMouseLeave()}
+            onClick={() => handleProjectClick(project.id)}
+           
           >
             <h3 className="sectionProject__div--title">{project.title}</h3>
             <img

@@ -30,16 +30,18 @@
         transition: transform 0.3s ease-in-out; // Transición para el contenedor del proyecto
   
         // Aquí es donde aplicamos la clase hovered.
-        &.hovered {
-          &--img {
-            transform: scale(1.1); // Amplía la imagen al 110%
-          }
-        }
+        
       }
   
       &--img {
-        width: 370px;
+        width: 330px;
         transition: transform 0.3s ease-in-out; // Transición suave para la imagen
       }
     }
+  }
+  .hovered {
+    transform: scale(1.2);
+    //&--img {
+      //transform: scale(1.1); // Amplía la imagen al 110%
+   // }
   }

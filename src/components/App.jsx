@@ -18,28 +18,20 @@ function App() {
 
   const [hoveredProject, setHoveredProject]= useState (null);
 
-  const projects = [
-    { id: 1, title: "PAGÍNA WEB ANIME", img: anime },
-    { id: 2, title: "PAGÍNA WEB CANINO NATURAL", img: canino },
-    { id: 3, title: "VIDEOJUEGO CUIDADO CON GROGU", img: videojuego },
-  ];
- 
+
   // actualiza el estado al proyecto hovered
-  const handleMouseEnter =(id)=>{
-    setHoveredProject(id);
+  const handleProjectClick =(id)=>{
+    setHoveredProject((prevId) => (prevId === id ? null : id ));
   };
   //Resetea el estado al salir del hover
-  const handleMouseLeave=()=>{
-    setHoveredProject(null);
-  };
+ 
   return (
     
    <>
    
     <Routes>
       <Route path="/"element={<Home 
-              handleMouseEnter={handleMouseEnter}
-              handleMouseLeave={handleMouseLeave}
+              handleProjectClick={handleProjectClick}
               hoveredProject={hoveredProject}
             />  }/>
       <Route path="/about"element={<About/>  }/>

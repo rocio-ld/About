@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import picture from "../images/foto-rocioLopez.jpg";
 
 
-function Home({handleMouseEnter, handleMouseLeave, hoveredProject}) {
+function Home({handleProjectClick, hoveredProject}) {
 
   const projects = [
     { id: 1, title: "PAGÍNA WEB ANIME", img: anime  },
@@ -43,8 +43,7 @@ function Home({handleMouseEnter, handleMouseLeave, hoveredProject}) {
     </div>
   </header>
     <ProjectItem
-    handleMouseEnter={handleMouseEnter}
-    handleMouseLeave={handleMouseLeave}
+    handleProjectClick={handleProjectClick}
     hoveredProject={hoveredProject}
     projects={projects}
   />
