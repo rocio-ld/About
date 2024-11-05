@@ -5,6 +5,7 @@ import videojuego from "../images/VIDEOJUEGO-CUIDADO-CON-GROGU.png";
 import ProjectItem from "./ProjectItem";
 import { Link } from "react-router-dom";
 import picture from "../images/foto-rocioLopez.jpg";
+import Cv from "./Cv";
 
 
 function Home({handleProjectClick, hoveredProject}) {
@@ -47,6 +48,9 @@ function Home({handleProjectClick, hoveredProject}) {
     hoveredProject={hoveredProject}
     projects={projects}
   />
+  <main>
+    <Cv/>
+  </main>
   </>
   );
 }

@@ -1,7 +1,7 @@
 .sectionProject {
     display: flex;
     flex-direction: column;
-    background-color: rgb(102, 102, 70);
+    background-color:  (#FDF5E6);
   
     &__h2 {
       color: #fff;
@@ -9,15 +9,23 @@
       font-size: 1.5REM;
       text-align: center;
       padding: 15px;
-      background-color: rgb(179, 179, 142);
+      background-color: (#3B4A3F);
+    }
+
+    &__h2.collapsed::after{
+      content: "▼";
+    }
+    &__h2:not(.collapsed)::after{
+      content: "▲";
     }
   
     &__div {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 15px;
+      padding: 25px;
       gap: 30px;
+     
   
       &--title {
         color: white;
@@ -34,7 +42,11 @@
       }
   
       &--img {
-        width: 330px;
+        min-width: 200px;
+        width: 100%;
+        
+
+
         transition: transform 0.3s ease-in-out; // Transición suave para la imagen
       }
     }

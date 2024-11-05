@@ -1,13 +1,25 @@
 import "../scss/ProjectItem.scss";
+import React, {useState} from 'react';
+
+
 
 function ProjectItem({
   handleProjectClick,
   hoveredProject,
   projects,
 }) {
+
+const [isExpanded, setIsExpanded] = useState(true);
+
+function expanded (){
+  setIsExpanded(prev => !prev);
+};
+
+
   return (
     <section className="sectionProject">
-      <h2 className="sectionProject__h2">PROYECTOS DESTACADOS</h2>
+      <h2 className={`sectionProject__h2 ${!isExpanded ? "collapsed" : ""}` }onClick={expanded}>PROYECTOS DESTACADOS </h2>
+      {isExpanded && ( 
       <div className="sectionProject__div">
         {projects.slice(0, 3).map((project) => (
           <div
@@ -27,6 +39,7 @@ function ProjectItem({
           </div>
         ))}
       </div>
+      )}
     </section>
   );
 }

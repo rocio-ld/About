@@ -12,7 +12,7 @@ function History() {
     <div className="equipo__container">
       <h3>EQUIPO</h3>
       <p>
-        Trabajar en equipo en el campo de la informática siendo mujeres implica aprovechar diversas habilidades, perspectivas y experiencias para abordar y resolver problemas tecnológicos de manera colaborativa.
+        Trabajar en equipo en el campo de la informática siendo mujer implica aprovechar diversas habilidades, perspectivas y experiencias para abordar y resolver problemas tecnológicos de manera colaborativa.
       </p>
         <p>
           Como habilidades destacar la diversidad de perspectiva, comunicación y colaboración, empatía y apoyo Mutuo, liderazgo inclusivo, adaptabilidad y habilidades técnicas y Creativas.

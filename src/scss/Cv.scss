@@ -1,0 +1,14 @@
+.divCV{
+    display: flex;
+    flex-direction: column;
+    &__h3{
+        text-align: center;
+        background-color: (#3B4A3F);
+        font-family: Rubik;
+        font-size: 1.5REM;
+        text-align: center;
+        padding: 15px;
+        color: white;
+
+    }
+}
