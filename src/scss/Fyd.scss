@@ -20,6 +20,7 @@
     flex-direction: column;
     align-items: center;
     background-color: $verde-oscuro;
+        
         @media (min-width: 768px){
             padding-left: 45px;
             padding-right: 45px;
@@ -50,6 +51,18 @@
         background-color: $rosa-oro;
         transform: translateY(15px) rotate(45deg);
        
+    }
+}
+.figure{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__img{
+        width: 70px;
+        padding: 15px;
+            
+        
     }
 }
 .fyd {

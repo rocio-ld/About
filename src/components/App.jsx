@@ -2,11 +2,9 @@ import React, {useState} from "react";
 import About from "./About";
 import Home from "./Home";
 import Contact from "./Contact";
-import Fyd from "./Fyd";
+import Fyd from "./Fyd.jsx";
 import { Routes, Route,} from "react-router-dom";
-import anime from "../images/PAGINA-WEB-ANIME.png";
-import canino from "../images/PAGINA-WEB-CANINO-NATURAL.png";
-import videojuego from "../images/VIDEOJUEGO-CUIDADO-CON-GROGU.png";
+
 
 
 
