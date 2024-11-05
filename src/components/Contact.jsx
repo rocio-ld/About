@@ -10,7 +10,7 @@ function Contact() {
   return (
 
     
-    <contact className="contact">
+    <div className="contact">
         <div className="socialmedia">
         <a href="#https://www.linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
         <a href="#https://www.instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
@@ -27,7 +27,7 @@ function Contact() {
       <img className="contact__figure--logo" src="./images/logo-adalab.png" alt="Logo Adalab" />
     </figure>
     <button onClick={gotToHome}>HOME</button>
-  </contact>
+  </div>
   )
 }
 

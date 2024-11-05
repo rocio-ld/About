@@ -33,7 +33,7 @@ function App() {
               hoveredProject={hoveredProject}
             />  }/>
       <Route path="/about"element={<About/>  }/>
-      <Route path="/history"element={<Fyd/>  }/>
+      <Route path="/Fyd"element={<Fyd/>  }/>
       <Route path="/contact"element={<Contact/> }/>
     </Routes>
     
