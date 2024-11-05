@@ -1,5 +1,9 @@
-import "../scss/History.scss";
+import "../scss/Fyd.scss";
 import {useNavigate}from "react-router-dom";
+import html5 from "../images/HTML5.svg";
+import css3 from "../images/CSS3.png";
+import js from "../images/js.png";
+import react from "../images/React.svg";
 
 function History() {
   const navigate= useNavigate(); //Hook para navegar programáticamente
@@ -10,7 +14,11 @@ function History() {
   return (
     <section className="equipo">
     <div className="equipo__container">
-      <h3>EQUIPO</h3>
+      <h3>HÁBILIDADES TÉCNICAS</h3>
+      <img src={html5} alt="logo de html5" />
+      <img src={css3} alt="logo de css3" />
+      <img src={js} alt="logo de javascript" />
+      <img src={react} alt="logo de reactjs" />
       <p>
         Trabajar en equipo en el campo de la informática siendo mujer implica aprovechar diversas habilidades, perspectivas y experiencias para abordar y resolver problemas tecnológicos de manera colaborativa.
       </p>
@@ -41,7 +49,7 @@ function History() {
         </p>
       </article>
     </div>
-    <button onClick={gotToHome}>HOME</button>
+    <button onClick={gotToHome} className="button">HOME</button>
   </section>
   
   )

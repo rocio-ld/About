@@ -24,7 +24,7 @@ function Home({handleProjectClick, hoveredProject}) {
     <Link to="/about" className="link">
     SOBRE MÍ
       </Link>
-      <Link to="/history" className="link">
+      <Link to="/Fyd" className="link">
         MI HISTORIA
       </Link>
       <Link to="/contact" className="link">

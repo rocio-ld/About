@@ -45,7 +45,7 @@ function About() {
         
         
     
-      <button onClick={gotToHome}>HOME</button>
+      <button onClick={gotToHome} className="button">HOME</button>
     </div>
   
     

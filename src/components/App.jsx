@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import About from "./About";
 import Home from "./Home";
 import Contact from "./Contact";
-import History from "./History";
+import Fyd from "./Fyd";
 import { Routes, Route,} from "react-router-dom";
 import anime from "../images/PAGINA-WEB-ANIME.png";
 import canino from "../images/PAGINA-WEB-CANINO-NATURAL.png";
@@ -35,7 +35,7 @@ function App() {
               hoveredProject={hoveredProject}
             />  }/>
       <Route path="/about"element={<About/>  }/>
-      <Route path="/history"element={<History/>  }/>
+      <Route path="/history"element={<Fyd/>  }/>
       <Route path="/contact"element={<Contact/> }/>
     </Routes>
     
