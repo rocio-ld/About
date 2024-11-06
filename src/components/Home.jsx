@@ -6,6 +6,7 @@ import ProjectItem from "./ProjectItem";
 import { Link } from "react-router-dom";
 import picture from "../images/foto-rocioLopez.jpg";
 import Cv from "./Cv";
+import Footer from "./Footer";
 
 
 function Home({handleProjectClick, hoveredProject}) {
@@ -25,7 +26,7 @@ function Home({handleProjectClick, hoveredProject}) {
     SOBRE MÍ
       </Link>
       <Link to="/Fyd" className="link">
-        MI HISTORIA
+        SKILLS
       </Link>
       <Link to="/contact" className="link">
         CONTACTO
@@ -51,6 +52,7 @@ function Home({handleProjectClick, hoveredProject}) {
   <main>
     <Cv/>
   </main>
+  <Footer/>
   </>
   );
 }

@@ -20,13 +20,13 @@ function About() {
          <p className="description">
         Actualmente soy Desarrolladora Web Junior, y me preguntaréis ¿Cómo ha llegado una administrativa a interesarse por este mundo del Desarrollo de páginas web?... pues te cuento un poco...</p>
 
-        <p className="description">Cuando finalicé el bachillerato con 18 años tenía que tomar la decisión más importante de mi vida, pero sabía que me gustaba y que no me gustaba, y en base a eso sabía que tenía que estudiar algo que tuviera  Matemáticas. </p>
+        <p className="description">Cuando finalicé el bachillerato con 18 años tenía que tomar la decisión más importante de mi vida, y sin madurez ni información,  sabía que mi rama era las CIENCIAS, y en base a eso sabía que tenía que estudiar algo que tuviera  Matemáticas. </p>
 
         <p className="description">Bajo mi punto de vista, en su día (hace 16 años), había poca información de las diferentes salidas laborales a elegir, así que pensé *estudia FPII de Administración y Finanzas* y pronto si Dios quiere empezarás a trabajar.</p>
 
         <p className="description">Terminé el FPII en 2010, y adivinad!! Me cogió una maravillosa crisis que duró unos cuantos años. Trabajar había que trabajar... aunque fui consiguiendo experiencia como administrativa de puro milagro.</p>
 
-        <p className="description">En 2018, y después de mis experiencias como Administrativa, estaba algo frustrada, ya que no conseguía una estabilidad laboral que tanto ansiaba, y decidí meterme en el ejército, ya que me aportaría estabilidad y un cambio de aires.</p>
+        <p className="description">En 2018, y después de mis experiencias como Administrativa, estaba algo frustrada, ya que no conseguía la estabilidad laboral que tanto ansiaba, y decidí meterme en el ejército, ya que me aportaría estabilidad y un cambio de aires.</p>
 
         <p className="description">Y siiiiii que cambié de aires, conocí al amor de mi vida, me casé y tuve un hermoso bebe. </p>
 
@@ -36,7 +36,12 @@ function About() {
 
         <p className="description">Y ME ENCANTA!!!!  </p>
 
-        <p className="description">Hay que seguir formándose siempre, es un mundo muy amplio y esto es SÓLO EL PRINCIPIO...</p>
+        <p className="description">Hay que seguir formándose siempre... es un mundo muy amplio y esto es SÓLO EL PRINCIPIO...</p>
+
+        <p className="description">Por cierto, COMO PUNTO SUPER IMPORTANTE y como algo a destacar en mi persona...   
+          decir que doy mucho valor a disfrutar del tiempo libre en familia y amigos, para tener una
+        buena salud física y mental y así poder tener equilibrio entre vida
+        personal y laboral y esto es lo que me precipitó a mi decisión a estudiar PROGRAMACIÓN</p>
 
         
 

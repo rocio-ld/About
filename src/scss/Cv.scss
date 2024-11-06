@@ -1,3 +1,4 @@
+
 .divCV{
     display: flex;
     flex-direction: column;
@@ -9,6 +10,19 @@
         text-align: center;
         padding: 15px;
         color: white;
-
     }
+    &__h3.collapsed::after{
+      content: "▼";
+      color: white;
+    }
+    &__h3:not(.collapsed)::after{
+      content: "▲";
+      color: white;
+    }
+    &__img{
+        padding: 30px;
+        background-color: (#FDF5E6);
+        
+    }
+    
 }
