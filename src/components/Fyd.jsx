@@ -7,6 +7,7 @@ import react from "../images/React.svg";
 import node from "../images/node.png";
 import mysql from "../images/mysql.png";
 import github from "../images/github.png";
+import Footer from "./Footer";
 
 
 function Fyd() {
@@ -47,9 +48,14 @@ function Fyd() {
         <p>Ansiosa</p>
         
       </article>
+      <div>
+      <button onClick={gotToHome} className="button">HOME</button>
+      </div>
     </div>
-    <button onClick={gotToHome} className="button">HOME</button>
+    
+    <Footer/>
   </section>
+
   
   )
 }

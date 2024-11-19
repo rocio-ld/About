@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import About from "./About";
 import Home from "./Home";
-import Contact from "./Contact";
+import Training from "./Training.jsx";
 import Fyd from "./Fyd.jsx";
 import { Routes, Route,} from "react-router-dom";
 
@@ -34,7 +34,7 @@ function App() {
             />  }/>
       <Route path="/about"element={<About/>  }/>
       <Route path="/Fyd"element={<Fyd/>  }/>
-      <Route path="/contact"element={<Contact/> }/>
+      <Route path="/training"element={<Training/> }/>
     </Routes>
     
     </>

@@ -1,6 +1,7 @@
 import "../scss/About.scss";
 import {useNavigate}from "react-router-dom";
-import about from "../images/about.jpg"
+import about from "../images/about.jpg";
+import Footer from "./Footer";
 
 function About() {
   const navigate= useNavigate(); //Hook para navegar programáticamente
@@ -54,7 +55,7 @@ function About() {
     </div>
   
     
-    
+    <Footer/>
   </section>
   )
 }

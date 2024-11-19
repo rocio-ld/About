@@ -45,8 +45,8 @@ function Home({handleProjectClick, hoveredProject}) {
       <Link to="/Fyd" className="link">
         SKILLS
       </Link>
-      <Link to="/contact" className="link">
-        CONTACTO
+      <Link to="/training" className="link">
+        FORMACIÓN
       </Link>
     </nav>
     <div className="header__div">

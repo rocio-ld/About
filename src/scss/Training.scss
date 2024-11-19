@@ -1,0 +1,74 @@
+@import "./Variables.scss";
+.training{
+    padding-left: 15px;
+    height: 100vh;
+    width: 100%;
+    padding-right: 15px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between ;
+    background-color: $verde-oscuro;
+        &__h2{
+            color: $blanco;
+            text-align: center;
+            line-height: 45px;
+            font-size: 24px;
+            font-family: $font-title;
+        }
+}
+.figure{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+        &__img{
+            width: 150px;
+        }
+            
+        
+    }
+    @import "./Variables.scss";
+    .training{
+        padding-left: 15px;
+        height: 100vh;
+        padding-right: 15px;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+        background-color: $verde-oscuro;
+            &__h2{
+                color: $blanco;
+                text-align: center;
+                line-height: 45px;
+                font-size: 24px;
+                font-family: $font-title;
+            }
+    }
+    .figure{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    
+    }
+    .img{
+        width: 250px;
+    }
+    .button{
+        .button {
+            text-align: auto;
+            background-color: (#E29578) ;
+            font-family: $font-all;
+            font-weight: 500;
+            color: $blanco;
+            font-size: 1rem;
+            border-radius: 30px;
+            border: none;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+    }
